@@ -1,4 +1,7 @@
-var ageAsString = prompt("what is your name?", "")
+var ageAsString = prompt("what is your age?", "")
     var age = Number(ageAsString);
-alert(age);
-alert("happy" + ageAsString);
+if( age < 40 )
+{
+    alert("oh your so young...");
+}
+alert("cool")
