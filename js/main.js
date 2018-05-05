@@ -4,9 +4,13 @@ if( age < 40 )
 {
     alert("oh your so young...");
 }
-alert("cool")
-
-
-function buttonClicked(){
-    alert("You chose the right one!")
+else if(age == 40)
+{
+    alert("Hey,you're 40!");
 }
+else{
+    alert("Don't worry, you're young at heart");
+}
+
+alert("Thank you");
+
